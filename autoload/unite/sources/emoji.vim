@@ -2,7 +2,6 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 let g:unite#sources#emoji#enable_japanese_description = get(g:, 'unite#sources#emoji#enable_japanese_description', 0)
-let g:unite#sources#emoji#enable_japanese_description = 1
 
 let s:source = {
             \ 'name' : 'emoji',
