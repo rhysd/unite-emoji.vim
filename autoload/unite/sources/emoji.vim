@@ -24,12 +24,12 @@ endfunction
 
 function! s:emojis()
     if exists('s:cache')
-        return s:cache
+        return copy(s:cache)
     endif
 
     let s:cache = items(emoji#data#dict())
 
-    return s:cache
+    return copy(s:cache)
 endfunction
 
 function! s:error_msg(msg)
