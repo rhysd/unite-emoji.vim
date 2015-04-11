@@ -22,6 +22,11 @@ NeoBundle 'rhysd/unite-emoji.vim'
 
 TODO: Screenshot
 
+Note that:
+
+- You can see unicode emojis in candidates only if your environment supports emoji.
+- If you are Japanese, Japanese description is available by setting `g:unite#sources#emoji#enable_japanese_description` to 1.
+
 ## License
 
 This software is distributed under [the MIT License](http://opensource.org/licenses/MIT).
