@@ -44,6 +44,10 @@ function! s:get_description_of(emoji)
     let desc = name
 
     if g:unite#sources#emoji#enable_japanese_description
+        let japanese_desc = unite_emoji#japanese_description_of(name)
+        if japanese_desc !=# ''
+            let desc .= ' ' . japanese_desc
+        endif
     endif
 
     if emoji#available()
