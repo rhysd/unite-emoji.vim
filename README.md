@@ -20,7 +20,7 @@ NeoBundle 'rhysd/unite-emoji.vim'
 :Unite emoji
 ```
 
-TODO: Screenshot
+![screen shot](https://raw.githubusercontent.com/rhysd/screenshots/master/unite-emoji.vim/unite_emoji.gif)
 
 Note that:
 
